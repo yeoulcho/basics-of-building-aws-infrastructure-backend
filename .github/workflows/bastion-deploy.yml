@@ -5,9 +5,9 @@ on:
     branches: [ "main" ]
       
 env:
-  DOCKER_IMAGE: ghcr.io/${{ github.actor }}/redis-spring-server
+  DOCKER_IMAGE: ghcr.io/${{ github.actor }}/deploy-redis-spring-backend
   VERSION: ${{ github.sha }}
-  NAME: redis-spring-server
+  NAME: deploy-redis-spring-backend
       
 jobs:
   build:
